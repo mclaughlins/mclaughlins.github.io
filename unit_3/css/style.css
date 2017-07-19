@@ -1,0 +1,26 @@
+h1 {
+	background-color: white;
+	text-align: center;
+	font-size: 34px;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+h3	{
+	text-align: center;
+	border: solid 2px;
+}
+
+body {
+	background-color: #FFF2FC;
+	background-image: url("images/mschocolatecookies_01.jpg");
+	background-size: auto;
+	font-family: helvetica;
+	font-weight: lighter;
+}
+
+#slogan {font-style: italic;
+}
