@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans:300,600,700,800');
+
+h1 {
+	background-color: white;
+	text-align: left;
+	font-family: 'Merriweather', serif;
+	font-size: 1.75em;
+
+}
+
+nav {
+	font-family: 'Open Sans', sans-serif;
+	font-size: .75em;
+	color: black;
+	text-transform: uppercase;
+}
+
+
+button	{
+	position: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	border: 2px solid white;
+	padding: 7px 20px;
+	background: none;
+	color: white;
+	display: inline-block;
+}
+
+body {
+	/* background-color: #FFF2FC; */
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.75em;
+}
+
+.hero-image {
+	background-image: url("images/mschocolatecookies_01.jpg");
+	height: 50%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.hero-text {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.75em;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}
+
+#slogan {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: semi-bold 600;
+}
