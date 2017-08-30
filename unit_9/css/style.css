@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700|Open+Sans:300,600,700,800');
+
+h1 {
+	background-color: white;
+	text-align: left;
+	font-family: 'Merriweather', serif;
+	font-size: 2em;
+}
+
+nav {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+}
+
+nav li {
+	display: inline;
+	width: 96%;
+	padding-right: 5%;
+	margin-left: 0;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #D1D2D4;
+}
+
+a {
+	display: inline-block;
+	color: black;
+	text-decoration: none;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: semi-bold 600;
+	font-size: 3em;
+	color: white;
+	position: center;
+	top: 0;
+}
+
+button	{
+	position: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 2em;
+	border: .125em solid white;
+	padding: 7px 20px;
+	background: white;
+	display: inline-block;
+}
+
+button a {
+	color: grey;
+}
+
+body {
+	/* background-color: #FFF2FC; */
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+footer {
+	background-color: #F1F1F2;
+	padding: .5%;
+}
+
+.wrapper {
+	padding: 0%;
+}
+
+.rule_above_below {
+	padding: 2.5%;
+	border: .125em solid black;
+	border-right: black;
+	border-left: black;
+	border-bottom: black;
+}
+
+.hero-image {
+	background-image: url("file:///Users/Sharleen/Documents/GitHub/mclaughlins.github.io/unit_9/images/lachmi-cookies.jpg");
+	display: block;
+	padding: 15%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.contact {
+	float: left;
+	padding-left: 3%;
+}
+
+.copyright {
+	float: right;
+	padding-right: 3%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#two_column {
+	background-color: #FFEFFF;
+	width: 96%;
+	padding: 2%;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 1%;
+	float: left;
+	width: 20%;
+	margin: 1%;
+	text-align: center;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 1%;
+	float: right;
+	width: 20%;
+	margin: 1%;
+	text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+	#two_column, #left, #right {
+		float: none;
+		width: auto;
+	}
+
+	.hero-image {
+	padding: 5%;
+	}
+
+	h1 {
+		background-color: white;
+		text-align: left;
+		font-family: 'Merriweather', serif;
+		font-size: 1.5em;
+	}
+
+	nav {
+		font-family: 'Open Sans', sans-serif;
+		font-size: .75em;
+		color: black;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: semi-bold 600;
+		font-size: 2em;
+		color: white;
+		position: center;
+		top: 0;
+	}
+
+	button	{
+		position: center;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 1.5em;
+		border: .125em solid white;
+		padding: 7px 20px;
+		background: white;
+		color: white;
+		display: inline-block;
+	}
+
+}
+
+
+
